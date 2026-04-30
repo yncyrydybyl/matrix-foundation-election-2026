@@ -13,9 +13,12 @@ A single-page infographic explaining the 2026 Governing Board election of [The M
 Click the small **"Tweaks"** dot in the bottom-right of the page to open a controls panel:
 
 - **Brand mark** — switch between the official `[matrix]` wordmark and three original geometric variations (lattice / bracket / glyph)
-- **Imagery** — toggle the hero band, switch between flowing lines, ASCII density grid, network graph, or data bars
 - **Color** — accent hue and saturation
 - **Surface** — background grid, scanlines overlay, mono vs. serif titles, density (compact / regular / comfy)
+
+## AI usage
+
+This page was built and edited with help from an LLM (Anthropic Claude Opus 4.7). The full disclosure — what the model did, what the human directed, and the prompt log — is in [`AI-USAGE.md`](./AI-USAGE.md).
 
 ## Sources
 
