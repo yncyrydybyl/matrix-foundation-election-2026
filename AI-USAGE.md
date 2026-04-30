@@ -56,6 +56,7 @@ Prompts are reproduced verbatim where short, paraphrased where they referenced s
 19. *"no difference on my phone"* (root cause: missing viewport meta tag)
 20. *"the summit logo looks cut on mobile"*
 21. *"reveal the usage of llm including the used prompts to the repo"* — produced this file.
+22. *"add a little disclaimer to the message at the top about the usage of llm including a link to the prompt file. and include the prompt."* — extended the on-page disclaimer strip to mention LLM assistance and link here, and appended this prompt to the log.
 
 ## How to reproduce
 
