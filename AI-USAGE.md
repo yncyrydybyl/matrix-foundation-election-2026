@@ -58,6 +58,8 @@ Prompts are reproduced verbatim where short, paraphrased where they referenced s
 21. *"reveal the usage of llm including the used prompts to the repo"* — produced this file.
 22. *"add a little disclaimer to the message at the top about the usage of llm including a link to the prompt file. and include the prompt."* — extended the on-page disclaimer strip to mention LLM assistance and link here, and appended this prompt to the log.
 23. *"make a nice preview with matrix chats when the url is posted"* (with a screenshot of an Element link preview showing "Unpacking…" as the description, because no Open Graph tags were set). Generated `og-image.png` (1200×630) with PIL — cream background, [matrix] dark plate, big title with green "2026", flowing wave layer, subtitle "27 Apr — 15 Jun · Six weeks. Five phases. · Ballot via OpaVote." — and added Open Graph + Twitter Card meta tags plus a `<meta name="description">` so the preview no longer scrapes the bundler's loading message.
+24. *"is it deployed?"* — verified Pages had built but discovered the og:* tags were inside the bundler template (only present after JavaScript runs), invisible to social-link crawlers. Duplicated the og:* / twitter:* / description tags into the static outer `<head>` so Element et al. can read them on first byte.
+25. *"please fix the preview of the post it looks horrible — don't use text as a logo. use the logo from matrix.org/branding/"* — replaced the hand-drawn `[matrix]` wordmark in `og-image.png` with the official PNG from the Matrix Foundation branding kit (`matrix-logos.zip`), composited onto the same dark plate.
 
 ## How to reproduce
 
